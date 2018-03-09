@@ -1,0 +1,31 @@
+@import (reference) "../proto";
+
+#yusp-line{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  height: 8px;
+
+  span{
+    float: left;
+    height: 5px;
+
+    &:after{
+      .clear;
+    }
+  }
+
+  .one{
+    width: 19%;
+    background: @ye-0;
+  }
+  .two{
+    width: 31%;
+    //background: @ye-bg-3;
+    background: white;
+  }
+  .three{
+    width: 50%;
+    background: @ye-gray-1;
+  }
+}

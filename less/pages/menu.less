@@ -1,0 +1,38 @@
+@import (reference) "../proto";
+
+nav#main-menu-wrapper {
+  //box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px 0;
+  z-index: 100;
+  position: fixed;
+
+  .fluid-container{
+    padding: 0;
+  }
+
+  #logo{
+    display: inline-block;
+    line-height: 1rem;
+    margin-right: 1rem;
+
+    span{
+      .text('Montserrat', 16px, 800, white);
+      text-transform: uppercase;
+    }
+  }
+
+  ul.main-menu{
+    display: inline;
+    float: right;
+
+    li{
+      display: inline;
+
+      a{
+        margin-left: 2rem;
+        font-size: 1rem;
+        color: white;
+      }
+    }
+  }
+}

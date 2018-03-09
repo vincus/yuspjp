@@ -1,0 +1,85 @@
+@import (reference) "../base";
+@import (reference) "../responsive";
+
+/**** TYPOGRAPGY *****/
+
+a, p, span, h1, h2, h3, h4, h5 {
+  vertical-align: baseline;
+}
+
+
+body {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Mplus 1p', sans-serif;
+}
+
+body{
+
+  p{
+    font-family: 'Mplus 1p', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+
+  }
+
+  h1{
+    margin: 0;
+    font-family: 'Mplus 1p', sans-serif;
+
+    @media @xs{
+      font-size: 24px;
+    }
+    @media @sm{
+      font-size: 24px;
+    }
+    @media @md, @lg{
+      font-size: 20px;
+    }
+    @media @xl, @xxl {
+      font-size: 24px;
+    }
+  }
+
+  h2{
+    margin: 0;
+    font-family: 'Mplus 1p', sans-serif;
+
+    @media @xs, @sm{
+      font-size: 20px;
+    }
+    @media @md, @lg{
+      font-size: 20px;
+    }
+    @media @xl, @xxl {
+      font-size: 20px;
+    }
+  }
+
+  h3{
+    font-family: 'Mplus 1p', sans-serif;
+    margin: 0;
+  }
+
+  h4{
+    font-family: 'Mplus 1p', sans-serif;
+    margin: 0;
+  }
+
+  h5{
+    font-family: 'Mplus 1p', sans-serif;
+    margin: 0;
+  }
+
+  ul{
+    -webkit-margin-start: 0;
+    -webkit-padding-start: 0;
+  }
+}
+
+h1, h2, h3, h4, h5, li, p{
+}
